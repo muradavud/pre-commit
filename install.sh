@@ -1,9 +1,6 @@
 #!/bin/sh
 
-echo "$PWD"/.git/hooks/pre-commit
-
 BASEDIR=$(dirname "$0")
-echo "$BASEDIR"
 
 curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.49.0 &&
 
