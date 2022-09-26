@@ -4,5 +4,5 @@ go install github.com/muradavud/pre-commit@latest
 ```
 2. Run the install.sh script from your project directory (where your go.mod is located)
 ```
-~MuradD/go/pkg/mod/github.com/muradavud/pre-commit\@v0.1.0/install.sh 
+$GOPATH/pkg/mod/github.com/muradavud/pre-commit\@v0.1.0/install.sh 
 ```
