@@ -1,1 +1,1 @@
-package pre_commit
+package main
